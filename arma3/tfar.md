@@ -31,7 +31,7 @@ Teamspeak 3 kann aus der [offiziellen Quelle bezogen werden](https://www.teamspe
 
 #### Einstellungen
 - es empfiehlt sich, das Soundpack auf "Sounds deactivated" zu stellen, ebenso in den Favoriten
-![ts3_favs_soundpack_disabled.png](/ts3_favs_soundpack_disabled.png)
+![arma3/ts3_favs_soundpack_disabled.png](/arma3/ts3_favs_soundpack_disabled.png)
 
 ## Handhabung
 
