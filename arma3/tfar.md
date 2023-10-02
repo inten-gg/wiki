@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-02T23:15:10.570Z
+date: 2023-10-02T23:23:58.793Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -19,7 +19,7 @@ Alternativ kann TFAR auch über den Steam Workshop manuell abonniert werden: htt
 
 ### Teamspeak 3
 
-Teamspeak 3 kann aus der [offiziellen Quelle bezogen werden](https://www.teamspeak.com/en/downloads/). Es empfiehlt sich, eine Version aus der nachfolgenden Liste zu verwenden:
+Teamspeak 3 kann aus der [offiziellen Quelle](https://www.teamspeak.com/en/downloads/) bezogen werden. Es empfiehlt sich, eine Version aus der nachfolgenden Liste zu verwenden:
 - 3.6.2
 - 3.6.1
 - 3.5.6
