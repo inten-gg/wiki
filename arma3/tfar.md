@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-02T23:04:02.616Z
+date: 2023-10-02T23:05:22.665Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -24,7 +24,7 @@ Alternativ kann TFAR auch über den Steam Workshop manuell abonniert werden: htt
 
 #### Einstellungen
 - es empfielt sich, das Soundpack auf "Sounds deactivated" zu stellen, ebenso in den Favoriten
-![2023-10-03_00_57_35-clipboard.png](/2023-10-03_00_57_35-clipboard.png)
+![ts3_favs_soundpack_disabled.png](/ts3_favs_soundpack_disabled.png)
 
 ## Handhabung
 
