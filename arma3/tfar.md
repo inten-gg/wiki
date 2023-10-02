@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-02T23:02:08.583Z
+date: 2023-10-02T23:04:02.616Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -27,6 +27,12 @@ Alternativ kann TFAR auch über den Steam Workshop manuell abonniert werden: htt
 ![2023-10-03_00_57_35-clipboard.png](/2023-10-03_00_57_35-clipboard.png)
 
 ## Handhabung
+
+
+### Teamspeak
+
+Um TFAR ingame benutzen zu können, muss jeder natürlich mit dem INTen Teamspeak 3 Server verbunden sein.
+Dieser hat die Adresse `ts.inten.gg`, das Passwort ist bei jedem INTer erhältlich.
 
 ### Direct Voice
 
