@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-02T22:59:02.940Z
+date: 2023-10-02T23:02:08.583Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -14,7 +14,8 @@ dateCreated: 2023-10-02T22:59:02.940Z
 
 ### Modifikation
 
-...
+Die Installation der ArmA 3 Modifikation erfolgt in der Regel über eine abonniere Steam Collection.
+Alternativ kann TFAR auch über den Steam Workshop manuell abonniert werden: https://steamcommunity.com/sharedfiles/filedetails/?id=894678801
 
 ### Teamspeak
 
@@ -24,3 +25,17 @@ dateCreated: 2023-10-02T22:59:02.940Z
 #### Einstellungen
 - es empfielt sich, das Soundpack auf "Sounds deactivated" zu stellen, ebenso in den Favoriten
 ![2023-10-03_00_57_35-clipboard.png](/2023-10-03_00_57_35-clipboard.png)
+
+## Handhabung
+
+### Direct Voice
+
+...
+
+### Hand-Funkgeräte
+
+...
+
+### Fahrzeug-Funkgeräte
+
+...
