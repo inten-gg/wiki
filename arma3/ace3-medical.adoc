@@ -1,0 +1,69 @@
+> Status: Draft
+
+
+# ACE 3 Medical
+
+## Allgemein
+
+...
+
+## Verletzungsarten
+
+Verletzungsarten und ihre Behandlung.
+
+[cols="1,1,1,1,1,1,1,1,1"]
+[.matable]
+|===
+|
+|Schürfwunde
+|Avulsion
+|Prellung
+|Quetschung
+|Schnittwunde
+|Platzwunde
+|Ballistisches Trauma
+|Stichwunde
+
+|Verbandspäckchen
+|✅ 100%
+|❌ 20%
+|✅ 100%
+|✅ 100%
+|🟠 30%
+|🟡 60%
+|❌ 20%
+|🟠 30%
+
+|Mullbinde
+|✅ 100%
+|✅ 100%
+|✅ 100%
+|✅ 100%
+|❌ 20%
+|❌ 20%
+|✅ 100%
+|❌ 20%
+
+|Elastische Bandage
+|✅ 100%
+|❌ 20%
+|✅ 100%
+|✅ 100%
+|✅ 100%
+|✅ 100%
+|🟠 40%
+|🟢 75%
+
+|QuickClot
+|🟡 60%
+|🟢 75%
+|🟡 60%
+|🟡 60%
+|🟡 60%
+|🟡 60%
+|🟢 75%
+|🟢 75%
+|=== 
+
+
+
