@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:08:38.975Z
+date: 2023-10-03T23:09:08.048Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -22,7 +22,7 @@ dateCreated: 2023-10-03T23:08:14.877Z
 Verletzungsarten und ihre Behandlung.
 
 |  | Schürfwunde | Avulsion | Prellung | Quetschung | Schnittwunde | Platzwunde | Ballistisches Trauma | Stichwunde |
-| - |
+| - | - | - | - | - | - | - | - | - |
 | Verbandspäckchen | ✅ 100% | ❌ 20% | ✅ 100% | ✅ 100% | 🟠 30% |🟡 60% |❌ 20% |🟠 30% |
 | Mullbinde | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ❌ 20% | ❌ 20% | ✅ 100% | ❌ 20% |
 | Elastische Bandage | ✅ 100% | ❌ 20% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | 🟠 40% | 🟢 75% |
