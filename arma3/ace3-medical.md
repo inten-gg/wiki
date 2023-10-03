@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:09:08.048Z
+date: 2023-10-03T23:09:26.781Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -33,7 +33,7 @@ Verletzungsarten und ihre Behandlung.
 ### Injektoren
 
 | Injektor | Wirkung | Gefahren |
-| - |
+| - | - | - |
 | Epinephrin | ↑ Puls (ca. 15 Schläge/min), könnte Spieler aus Bewusstlosigkeit holen | bei Herzstillstand tödlich |
 | Morphin | ↓ Puls + ↓ Blutdruck + ↓ Schmerzen (ca. 55 Schläge/min) | maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden |
 | Atropin Bandage | ↓ Puls | - |
@@ -44,7 +44,7 @@ Verletzungsarten und ihre Behandlung.
 Intravenöser Zugang. Alle IVs haben die selbe Wirkung.
 
 | IV | Blutdruck | Blutvolumen |
-| - |
+| - | - | - |
 | Bluttransfusion | ↑ | ↑ |
 | Bluttransfusion | ↑ | ↑ |
 | Bluttransfusion Bandage | ↑ | ↑ |
@@ -53,7 +53,7 @@ Intravenöser Zugang. Alle IVs haben die selbe Wirkung.
 ### Gegenstände
 
 | Gegenstand | Wirkung | Voraussetzung | Gefahren | 
-| - |
+| - | - | - | - |
 | Tourniquet | Stoppt Blutungen | Verursacht Schmerzen nach ca. 5 Minuten |
 | Operationskit | Schließt schließt sich wiederholt öffnende Wunden | stabil | maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden |
 | Triagekarte | Enthält wichtige Informationen (Vor Verabreichung von Autoinjektionen unbedingt prüfen, enthält Infos über IVs, Autoinjektionen uvm) | - | - |
