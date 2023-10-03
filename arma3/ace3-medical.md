@@ -2,7 +2,7 @@
 title: ACE3 Medical
 description: 
 published: true
-date: 2023-10-03T16:44:35.511Z
+date: 2023-10-03T16:51:25.344Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T16:44:35.511Z
@@ -13,4 +13,20 @@ dateCreated: 2023-10-03T16:44:35.511Z
 
 # ACE 3 Medical
 
-## Settings
+## Allgemein
+
+...
+
+## Verletzungsarten
+
+Verletzungsarten und ihre Behandlung.
+
+| Verband<br>Wunde | Schürfwunde | Avulsion | Prellung |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|
+| Verbands-
+päckchen | ✅ | ❌ |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+
+
