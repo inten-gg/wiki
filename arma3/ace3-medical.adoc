@@ -88,6 +88,30 @@ Verletzungsarten und ihre Behandlung.
 |-
 |===
 
+## IVs
+
+Intravenöser Zugang. Alle IVs haben die selbe Wirkung.
+
+[cols="1,1,1"]
+[.matable]
+|===
+|IV
+|Blutdruck
+|Blutvolumen
+
+|Bluttransfusion
+|↑ 
+|↑ 
+
+|Plasmatransfusion 
+|↑ 
+|↑ 
+
+|Kochsalzlösung
+|↑ 
+|↑ 
+|===
+
 ## Gegenstände
 
 [cols="1,2,1,2"]
