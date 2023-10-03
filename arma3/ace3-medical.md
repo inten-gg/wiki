@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:41:47.955Z
+date: 2023-10-03T23:42:17.854Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -68,7 +68,7 @@ IVs im St체ckvolumen 250ml sind vergleichsweise sinnlos, nur 500ml oder 1l mitf�
 
 ```mermaid
 flowchart TD
-    Start[Start] --> Puls{Puls vorhanden?}
+    Start[Start] --> Puls{Puls\nvorhanden?}
     Puls -- Ja --> Ansprechbar{Ansprechbar?}
     Puls -- Nein --> Prio1[Prio 1]
     Ansprechbar -- Ja --> Prio3[Prio 3]
@@ -76,8 +76,8 @@ flowchart TD
     Prio1 --> Material
     Prio2 --> Material
     Prio3 --> Question[Abfragen, Reagieren]
-    Question --> Material{Ausreichend Material?}
-    Material -- Ja --> VieleBlutungen{Blutungen \nan Extremit채ten?}
+    Question --> Material{Ausreichend\nMaterial?}
+    Material -- Ja --> VieleBlutungen{Blutungen\nan Extremit채ten?}
     Material -- Nein --> Nope[Keine Behandlung]
     Nope ---> Ende
     VieleBlutungen -- Ja --> Tourniquets[Tourniquets anlegen]
@@ -86,7 +86,7 @@ flowchart TD
     Torso --> Extreminaeten[Extremit채ten verbinden]
     Extreminaeten --> TourniquetsDel[Tourniquets entfernen]
     TourniquetsDel --> Stitch[Wunden vern채hen]
-    Stitch --> PulsAfterStitch{Puls vorhanden?}
+    Stitch --> PulsAfterStitch{Puls\nvorhanden?}
     PulsAfterStitch -- Ja --> Pain{Schmerzen?}
     PulsAfterStitch -- Nein --> CPR
     CPR --> PulsAfterStitch
