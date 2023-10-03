@@ -2,13 +2,14 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:28:11.168Z
+date: 2023-10-03T23:32:49.024Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
 ---
 
-> Status: Draft
+> Status: Work in Progress
+{.is-info}
 
 
 # ACE 3 Medical
@@ -42,6 +43,7 @@ Verletzungsarten und ihre Behandlung.
 ### IVs
 
 Intravenöser Zugang. Alle IVs haben die selbe Wirkung.
+IVs im Stückvolumen 250ml sind vergleichsweise sinnlos, nur 500ml oder 1l mitführen.
 
 | IV | Blutdruck | Blutvolumen |
 | - | - | - |
