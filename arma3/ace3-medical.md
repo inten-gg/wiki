@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:42:17.854Z
+date: 2023-10-03T23:57:11.784Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -65,23 +65,50 @@ IVs im Stückvolumen 250ml sind vergleichsweise sinnlos, nur 500ml oder 1l mitf�
 
 ## Behandlungsablauf
 
+<div style="float: left; width: 50%;">
 
+**Priorisierung**
+
+Muss mehr als ein Patient behandelt werden, sollte priorisiert werden, um einen Patienten in kritischer Lage zu erkennen und zuerst zu behandeln.
+
+<div style="padding: 1rem;">
+  
 ```mermaid
 flowchart TD
-    Start[Start] --> Puls{Puls\nvorhanden?}
+    Start[Eingang] --> Puls{Puls\nvorhanden?}
     Puls -- Ja --> Ansprechbar{Ansprechbar?}
     Puls -- Nein --> Prio1[Prio 1]
     Ansprechbar -- Ja --> Prio3[Prio 3]
     Ansprechbar -- Nein --> Prio2[Prio 2]
-    Prio1 --> Material
-    Prio2 --> Material
-    Prio3 --> Question[Abfragen, Reagieren]
-    Question --> Material{Ausreichend\nMaterial?}
-    Material -- Ja --> VieleBlutungen{Blutungen\nan Extremitäten?}
+    Prio1 --> Behandlung
+    Prio2 --> Behandlung
+    Prio3 --> Behandlung
+		class Prio1 fc-node-red
+    class Prio2 fc-node-orange
+    class Prio3 fc-node-green
+```
+  
+</div>
+  
+</div>
+
+<div style="float: right;">
+
+**Behandlung**
+
+<div style="padding: 1rem;">  
+  
+```mermaid
+flowchart TD
+    Start[Start] --> Material{Ausreichend\nMaterial?}
+    Material -- Ja --> Ansprechbar{Ansprechbar?}    
     Material -- Nein --> Nope[Keine Behandlung]
-    Nope ---> Ende
+    Nope --> Ende
+    Ansprechbar -- Ja --> Question[Befragen, ggf. Abkürzen]
+    Ansprechbar -- Nein --> Untersuchen
+    Untersuchen --> VieleBlutungen{Blutungen\nan Extremitäten?}
     VieleBlutungen -- Ja --> Tourniquets[Tourniquets anlegen]
-    VieleBlutungen -- Nein --> Torso[Kopf & Körperstamm verbinden]
+    VieleBlutungen -- Nein --> Torso[Kopf und Körperstamm verbinden]
     Tourniquets --> Torso
     Torso --> Extreminaeten[Extremitäten verbinden]
     Extreminaeten --> TourniquetsDel[Tourniquets entfernen]
@@ -97,9 +124,12 @@ flowchart TD
     BloodPressure -- Nein --> PulseAfterBloodPressure{Puls <60?}
     IVs --> PulseAfterBloodPressure
     PulseAfterBloodPressure -- Ja --> Epiniphrin
-    PulseAfterBloodPressure -- Nein ---> Ende
-    Epiniphrin ---> Ende    
-		class Prio1 fc-node-red
-    class Prio2 fc-node-orange
-    class Prio3 fc-node-green
-```
+    PulseAfterBloodPressure -- Nein --> Ende
+    Epiniphrin --> Ende    
+```  
+
+</div>
+  
+</div>
+
+<span style="clear:both;">&nbsp;</span>
