@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:25:20.020Z
+date: 2023-10-03T23:28:11.168Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
