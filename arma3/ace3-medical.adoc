@@ -66,4 +66,22 @@ Verletzungsarten und ihre Behandlung.
 |=== 
 
 
+## Injektoren
+
+[cols="1,1"]
+[.matable]
+|===
+|Injektor
+|Wirkung
+
+|Epinephrin
+|↑ Puls (ca. 15 Schläge/min, könnte Spieler aus Bewusstlosigkeit holen, bei Herzstillstand tödlich!)
+
+|Morphin
+|↓ Puls + ↓ Blutdruck + ↓ Schmerzen (ca. 55 Schläge/min, maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden)
+
+|Atropin
+|↓ Puls 
+|===
+
 
