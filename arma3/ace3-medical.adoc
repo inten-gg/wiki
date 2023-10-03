@@ -11,7 +11,7 @@
 
 Verletzungsarten und ihre Behandlung.
 
-[cols="1,1,1,1,1,1,1,1,1"]
+[cols="2,1,1,1,1,1,1,1,1"]
 [.matable]
 |===
 |
@@ -68,20 +68,53 @@ Verletzungsarten und ihre Behandlung.
 
 ## Injektoren
 
-[cols="1,1"]
+[cols="1,2,2"]
 [.matable]
 |===
 |Injektor
 |Wirkung
+|Gefahren
 
 |Epinephrin
-|↑ Puls (ca. 15 Schläge/min, könnte Spieler aus Bewusstlosigkeit holen, bei Herzstillstand tödlich!)
+|↑ Puls (ca. 15 Schläge/min), könnte Spieler aus Bewusstlosigkeit holen
+|bei Herzstillstand tödlich
 
 |Morphin
-|↓ Puls + ↓ Blutdruck + ↓ Schmerzen (ca. 55 Schläge/min, maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden)
+|↓ Puls + ↓ Blutdruck + ↓ Schmerzen (ca. 55 Schläge/min)
+|maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden
 
 |Atropin
-|↓ Puls 
+|↓ Puls
+|-
 |===
 
+## Gegenstände
 
+[cols="1,2,1,2"]
+[.matable]
+|===
+|Gegenstand
+|Wirkung
+|Voraussetzung
+|Gefahren
+
+|Tourniquet
+|Stoppt Blutungen
+|-
+|Verursacht Schmerzen nach ca. 5 Minuten
+
+|Operationskit
+|Schließt schließt sich wiederholt öffnende Wunden
+|stabil
+|maximal 2 Injektionen in 15 Minuten, Injektion bei niedrigem Puls/Blutdruck vermeiden
+
+|Triagekarte
+|Enthält wichtige Informationen (Vor Verabreichung von Autoinjektionen unbedingt prüfen, enthält Infos über IVs, Autoinjektionen uvm)
+|-
+|-
+
+|Erste-Hilfe-Kasten
+|Vollständige Heilung + beendet Bewusstlosigkeit, stabilisiert, neutralisiert Autoinjektionen, löscht Triagekarte
+|stabil, in Fahrzeug / Medical Facility
+|-
+|===
