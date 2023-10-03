@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:40:14.127Z
+date: 2023-10-03T23:41:47.955Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -77,7 +77,7 @@ flowchart TD
     Prio2 --> Material
     Prio3 --> Question[Abfragen, Reagieren]
     Question --> Material{Ausreichend Material?}
-    Material -- Ja --> VieleBlutungen{Blutungen an Extremitäten?}
+    Material -- Ja --> VieleBlutungen{Blutungen \nan Extremitäten?}
     Material -- Nein --> Nope[Keine Behandlung]
     Nope ---> Ende
     VieleBlutungen -- Ja --> Tourniquets[Tourniquets anlegen]
