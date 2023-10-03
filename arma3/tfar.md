@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-03T08:45:44.270Z
+date: 2023-10-03T08:47:36.928Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -30,6 +30,7 @@ Teamspeak 3 kann aus der [offiziellen Quelle](https://www.teamspeak.com/en/downl
    - sollte der `!Workshop` Ordner nicht zu finden sein, sollten im Windows Datei Explorer "Versteckte Ordner anzeigen" aktiviert werden
      ![windows_explorer_options.png](/arma3/windows_explorer_options.png) 
      ![/arma3/windows_explorer_hiddenfiles.png](/arma3/windows_explorer_hiddenfiles.png)
+   - sollte `@Task Force Arrowhead Radio (BETA!!!)` nicht zu finden sein und die Modifikation wurde erst jüngst abonniert, reicht es in der Regel aus, ArmA 3 mit TFAR einmal zu starten
 - die Datei `task_force_radio.ts3_plugin` ausführen - es sollte eine Plugin Installation via Teamspeak 3 erfolgen
 - überprüfen, dass 
 
