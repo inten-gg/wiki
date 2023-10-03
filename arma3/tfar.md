@@ -2,7 +2,7 @@
 title: Task Force Arrowhead Radio
 description: TFAR
 published: true
-date: 2023-10-03T08:47:36.928Z
+date: 2023-10-03T15:09:31.678Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T22:59:02.940Z
@@ -36,6 +36,7 @@ Teamspeak 3 kann aus der [offiziellen Quelle](https://www.teamspeak.com/en/downl
 
 #### Einstellungen
 - es empfiehlt sich, das Soundpack auf "Sounds deactivated" zu stellen, ebenso in den Favoriten
+![teamspeak3-favoriten-experte.png](/arma3/teamspeak3-favoriten-experte.png)
 ![arma3/ts3_favs_soundpack_disabled.png](/arma3/ts3_favs_soundpack_disabled.png)
 
 ## Handhabung
