@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-04T00:04:40.914Z
+date: 2023-10-04T00:07:39.888Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -116,7 +116,7 @@ flowchart TD
     TourniquetsDel --> Stitch[Wunden vernähen]
     Stitch --> PulsAfterStitch{Puls\nvorhanden?}
     PulsAfterStitch -- Ja --> Pain{Schmerzen?}
-    PulsAfterStitch -- Nein --> CPR
+    PulsAfterStitch -- Nein --> CPR[CPR anordnen]
     CPR --> PulsAfterStitch
     Pain -- Ja --> Morphium
     Pain -- Nein --> BloodPressure[Blutdruck <100/50]
