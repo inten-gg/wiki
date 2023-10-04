@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-04T00:25:31.509Z
+date: 2023-10-04T00:28:04.301Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -125,11 +125,11 @@ flowchart TD
     BloodPressure -- Nein --> PulseAfterBloodPressure{Puls <60?}
     IVs --> PulseAfterBloodPressure
     PulseAfterBloodPressure -- Ja --> EpiniphrinDecision{Epiniphrin\nverabreicht?}
-    EpiniphrinDecision -- Ja -.-> EndCPR[CPR beenden] -.-> Dead[Patient für Tot erklären]    
+    EpiniphrinDecision -- Ja --> EpiniphrinDelay
     EpiniphrinDecision -- Nein --> Epiniphrin[Epiniphrin verabreichen\nWirken lassen]
     PulseAfterBloodPressure -- Nein --> EndCPR
     EndCPR --> Ende
-    Epiniphrin --> EpiniphrinDelay{Bewirkt\nPulserhöhung}
+    Epiniphrin --> EpiniphrinDelay{Bewirkte\nPulserhöhung}
     EpiniphrinDelay -- Ja --> PulseAfterBloodPressure
     EpiniphrinDelay -- Nein --> Dead
     Dead --> Ende
