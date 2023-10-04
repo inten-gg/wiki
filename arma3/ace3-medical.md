@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-04T00:01:49.724Z
+date: 2023-10-04T00:04:40.914Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -48,8 +48,8 @@ IVs im Stückvolumen 250ml sind vergleichsweise sinnlos, nur 500ml oder 1l mitf�
 | IV | Blutdruck | Blutvolumen |
 | - | - | - |
 | Bluttransfusion | ↑ | ↑ |
-| Bluttransfusion | ↑ | ↑ |
-| Bluttransfusion Bandage | ↑ | ↑ |
+| Plasmatransfusion  | ↑ | ↑ |
+| Kochsalzlösung | ↑ | ↑ |
 {.matable}
 
 ### Gegenstände
