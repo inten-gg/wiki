@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-03T23:57:55.815Z
+date: 2023-10-04T00:01:49.724Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -104,9 +104,10 @@ flowchart TD
     Material -- Ja --> Ansprechbar{Ansprechbar?}    
     Material -- Nein --> Nope[Keine Behandlung]
     Nope --> Ende
-    Ansprechbar -- Ja --> Question[Befragen, ggf. Abkürzen]
-    Ansprechbar -- Nein --> Untersuchen
-    Untersuchen --> VieleBlutungen{Blutungen\nan Extremitäten?}
+    Ansprechbar -- Ja --> Question[Befragung, schnelle Untersuchung]    
+    Ansprechbar -- Nein --> CompleteSearch[Vollständige Untersuchung]
+    Question --> VieleBlutungen
+    CompleteSearch --> VieleBlutungen{Blutungen\nan Extremitäten?}
     VieleBlutungen -- Ja --> Tourniquets[Tourniquets anlegen]
     VieleBlutungen -- Nein --> Torso[Kopf und Körperstamm verbinden]
     Tourniquets --> Torso
