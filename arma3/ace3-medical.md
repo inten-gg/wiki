@@ -2,7 +2,7 @@
 title: ACE 3 Medical Guide
 description: 
 published: true
-date: 2023-10-04T00:07:39.888Z
+date: 2023-10-04T00:12:18.720Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-03T23:08:14.877Z
@@ -117,7 +117,7 @@ flowchart TD
     Stitch --> PulsAfterStitch{Puls\nvorhanden?}
     PulsAfterStitch -- Ja --> Pain{Schmerzen?}
     PulsAfterStitch -- Nein --> CPR[CPR anordnen]
-    CPR --> PulsAfterStitch
+    CPR --> BloodPressure
     Pain -- Ja --> Morphium
     Pain -- Nein --> BloodPressure[Blutdruck <100/50]
     Morphium --> BloodPressure
