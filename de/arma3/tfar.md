@@ -28,16 +28,16 @@ Teamspeak 3 kann aus der [offiziellen Quelle](https://www.teamspeak.com/en/downl
 
 - in den Steam Ordner `[...]\steamapps\common\Arma 3\!Workshop\@Task Force Arrowhead Radio (BETA!!!)\teamspeak` navigieren
    - sollte der `!Workshop` Ordner nicht zu finden sein, sollten im Windows Datei Explorer "Versteckte Ordner anzeigen" aktiviert werden
-     ![windows_explorer_options.png](/arma3/windows_explorer_options.png) 
-     ![/arma3/windows_explorer_hiddenfiles.png](/arma3/windows_explorer_hiddenfiles.png)
+     ![/files/arma3/windows_explorer_options.png](/files/arma3/windows_explorer_options.png) 
+     ![/files/arma3/windows_explorer_hiddenfiles.png](/files/arma3/windows_explorer_hiddenfiles.png)
    - sollte `@Task Force Arrowhead Radio (BETA!!!)` nicht zu finden sein und die Modifikation wurde erst jüngst abonniert, reicht es in der Regel aus, ArmA 3 mit TFAR einmal zu starten
 - die Datei `task_force_radio.ts3_plugin` ausführen - es sollte eine Plugin Installation via Teamspeak 3 erfolgen
 - überprüfen, dass 
 
 #### Einstellungen
 - es empfiehlt sich, das Soundpack auf "Sounds deactivated" zu stellen, ebenso in den Favoriten
-![teamspeak3-favoriten-experte.png](/arma3/teamspeak3-favoriten-experte.png)
-![arma3/ts3_favs_soundpack_disabled.png](/arma3/ts3_favs_soundpack_disabled.png)
+![/files/arma3teamspeak3-favoriten-experte.png](/files/arma3/teamspeak3-favoriten-experte.png)
+![/files/arma3/ts3_favs_soundpack_disabled.png](/files/arma3/ts3_favs_soundpack_disabled.png)
 
 ## Handhabung
 
