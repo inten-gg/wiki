@@ -1,0 +1,200 @@
+:root {
+
+  /* Background layers */
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #1a1a2e;
+  --bg-tertiary: #23233a;
+  --bg-nav: #18181f;
+  --bg-elevated: #262640;
+
+  /* Borders & separators */
+  --border-subtle: rgba(255,255,255,0.06);
+  --border-default: rgba(255,255,255,0.12);
+  --border-strong: rgba(255,255,255,0.2);
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255,255,255,0.7);
+  --text-muted: rgba(255,255,255,0.45);
+  --text-disabled: rgba(255,255,255,0.3);
+
+  /* Primary accent */
+  --accent-emerald: #22c55e;
+  --accent-emerald-hover: #16a34a;
+  --accent-emerald-soft: rgba(34,197,94,0.15);
+  --accent-emerald-glow: rgba(34,197,94,0.4);
+
+  /* Secondary accent */
+  --accent-indigo: #5865F2;
+  --accent-indigo-hover: #4752c4;
+  --accent-indigo-soft: rgba(88,101,242,0.15);
+
+  /* Status colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* Input / interactive */
+  --input-bg: #24244a;
+  --input-border: rgba(255,255,255,0.1);
+  --input-border-focus: #5865F2;
+
+  /* Hover / active layers */
+  --hover-bg: rgba(255,255,255,0.05);
+  --active-bg: rgba(255,255,255,0.08);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.25);
+  --shadow-md: 0 6px 20px rgba(0,0,0,0.35);
+  --shadow-glow-emerald: 0 0 20px rgba(34,197,94,0.35);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link .brand-icon {
+  filter: brightness(0) invert(1);
+  opacity: 0.9; /* increase idle opacity for better contrast */
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover .brand-icon {
+  opacity: 1;
+}
+
+/* Tooltip styles for social icons */
+.social-link {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 10px) scale(0.96);
+  background: rgba(8, 10, 14, 0.92); /* stronger contrast for readability */
+  color: var(--text-primary);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.15;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms cubic-bezier(.2,.9,.2,1), transform 160ms cubic-bezier(.2,.9,.2,1);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+  z-index: 10;
+}
+
+/* arrow */
+.tooltip::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: inherit;
+  transform-origin: center;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: inherit;
+}
+
+.social-link:focus-within .tooltip,
+.social-link:hover .tooltip {
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+  pointer-events: auto;
+}
+
+/* On wider screens, position tooltip to the left of the icon for compact vertical spacing */
+@media (min-width: 600px) {
+  .tooltip {
+    left: auto;
+    right: 100%;
+    bottom: auto;
+    top: 50%;
+    transform: translate(10px, -50%) scale(0.96);
+  }
+
+  .tooltip::after {
+    left: auto;
+    right: -6px;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .social-link:focus-within .tooltip,
+  .social-link:hover .tooltip {
+    transform: translate(0, -50%) scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .play-button {
+    width: 100px;
+    height: 100px;
+  }
+
+  .group-name {
+    font-size: 1.75rem;
+    letter-spacing: 0.2em;
+  }
+
+  .discord-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .play-button {
+    animation: none;
+  }
+
+  .play-button:hover {
+    animation: none;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* Accessible focus styles for keyboard users */
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.16);
+  border-radius: 8px;
+}
+
+.discord-btn:focus-visible,
+.social-link:focus-visible,
+.play-button:focus-visible {
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.24);
+}

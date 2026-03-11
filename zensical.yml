@@ -1,0 +1,35 @@
+site_name: INTen Wiki
+site_description: Tutorials and references for Games we play
+repo_url: https://github.com/inten-gg/wiki
+
+nav:
+  - Home: index.md
+  - Games:
+      - Squad: games/squad/index.md
+      - ArmA 3: games/arma3/index.md
+      - ArmA Reforger: games/reforger/index.md
+  - Tools:
+      - Squad WLS Seeder: tools/squad-wls-seeder/index.md
+  - About: about.md
+
+theme:
+  name: material
+  custom_dir: theme
+  palette:
+    - scheme: default
+      primary: 'green'
+      accent: 'emerald'
+  font:
+    text: 'Inter'
+    code: 'Roboto Mono'
+
+extra_css:
+  - 'assets/css/theme-vars.css'
+  - 'assets/stylesheets/custom.css'
+
+plugins:
+  - macros
+
+markdown_extensions:
+  - toc:
+      permalink: '¶'

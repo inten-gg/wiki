@@ -1,6 +1,9 @@
-# Welcome to the Wiki
+---
+hide:
+  - toc
+---
 
-Select a game to browse tutorials, references, and server notes.
+# Home
 
 <div class="game-grid">
   <a class="game-card" href="games/squad/">
@@ -21,7 +24,3 @@ Select a game to browse tutorials, references, and server notes.
     <p>Modding, server setup, and engine-specific tips.</p>
   </a>
 </div>
-
---
-
-_Tip: Use the site search to quickly find tutorials or commands._

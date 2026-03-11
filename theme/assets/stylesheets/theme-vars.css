@@ -1,0 +1,62 @@
+/* Canonical design tokens for INTen wiki (source of truth) */
+:root{
+  /* Glass / surfaces */
+  --glass-gradient-start: rgba(255,255,255,0.02);
+  --glass-gradient-end: rgba(255,255,255,0.01);
+  --card-border: rgba(255,255,255,0.03);
+
+  /* Shadows */
+  --shadow-card: 0 6px 22px rgba(2,6,23,0.5);
+  --shadow-hover-color: rgba(11,83,255,0.10);
+  --shadow-hover: 0 20px 60px var(--shadow-hover-color);
+  --shadow-focus-outline: 0 14px 44px rgba(11,83,255,0.06);
+  --shadow-focus-ring: 0 0 0 4px rgba(34,197,94,0.08);
+
+  /* Spacing & layout */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+
+  /* Container paddings */
+  --container-vertical-padding: 2rem;
+  --container-horizontal-padding: 1.25rem;
+  --grid-gap: 1rem;
+  --game-card-minwidth: 260px;
+
+  /* Card hover behavior */
+  --card-hover-translate: -8px;
+  --card-hover-scale: 1.01;
+  --card-transition: transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s ease;
+
+  /* Larger spacing / hero sizes */
+  --space-5: 3.25rem;
+  --hero-min-height: 320px;
+
+  /* Game image sizes */
+  --game-img-max-height: 72px;
+  --game-img-max-height-mobile: 56px;
+
+  /* Radii */
+  --card-radius: 14px;
+  --drop-shadow: 0 8px 18px rgba(0,0,0,0.45);
+
+  /* Typography */
+  --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Font import helpers (templates still need to include Google font link or self-hosted assets) */
+  --font-import: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@700&display=swap';
+
+  /* Logo */
+  --logo-size: 120px;
+  /* Minor typographic & spacing tokens */
+  --letter-spacing-wide: 0.12em;
+  --tagline-margin-top: -0.25rem;
+  --game-title-size: 1.15rem;
+  --game-desc-size: 0.95rem;
+  --card-padding-vertical: var(--space-5);
+  --card-padding-horizontal: var(--space-4);
+}
+
+/* Basic page-level usage */
+body { background-color: var(--bg-primary); color: var(--text-primary); }
