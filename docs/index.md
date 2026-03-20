@@ -1,26 +1,13 @@
 ---
-hide:
-  - toc
+template: start.html
 ---
 
-# Home
+# Willkommen im INTen Wiki
 
-<div class="game-grid">
-  <a class="game-card" href="games/squad/">
-    <img src="games/squad/assets/squad-logo.svg" alt="Squad logo">
-    <h3>Squad</h3>
-    <p>Cooperative mil-sim — server tips, roles, and quickstart.</p>
-  </a>
+Dieses Wiki ist die zentrale Wissenssammlung unserer Gaminggruppe. Hier sammeln wir alles Wichtige rund um unsere gemeinsamen Spiele – von Guides und Strategien über Builds und Tipps bis hin zu wichtigen Informationen und nützlichen Ressourcen.
 
-  <a class="game-card" href="games/arma3/">
-    <img src="games/arma3/assets/arma3-logo.svg" alt="ArmA 3 logo">
-    <h3>ArmA 3</h3>
-    <p>Mission creation, mods and operations guides.</p>
-  </a>
+Das Wiki lebt von der Mitarbeit unserer Community. Jedes Mitglied kann dazu beitragen, Inhalte zu erweitern, zu korrigieren oder neue Artikel zu erstellen. Egal ob kleine Verbesserung, zusätzlicher Hinweis oder ein ausführlicher Guide – jede Ergänzung hilft dabei, das Wiki für alle hilfreicher zu machen.
 
-  <a class="game-card" href="games/reforger/">
-    <img src="games/reforger/assets/reforger-logo.svg" alt="ArmA Reforger logo">
-    <h3>ArmA Reforger</h3>
-    <p>Modding, server setup, and engine-specific tips.</p>
-  </a>
-</div>
+Achte beim Bearbeiten darauf, Informationen klar, verständlich und übersichtlich zu formulieren. Wenn möglich, nutze eine einheitliche Struktur, damit Artikel leicht gelesen und schnell durchsucht werden können.
+
+Gemeinsam bauen wir eine hilfreiche, wachsende Wissensbasis für unsere Community auf.

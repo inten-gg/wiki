@@ -2,6 +2,10 @@
 @import url('global-design.css');
 @import url('theme-vars.css');
 
+:root {
+  --md-mermaid-theme: dark;
+}
+
 body {
   background-color: var(--bg-primary);
   background: radial-gradient(ellipse at center top, var(--bg-secondary) 0%, var(--bg-primary) 70%);
@@ -20,15 +24,17 @@ body::before {
     linear-gradient(90deg, rgba(34, 197, 94, 0.02) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 .md-grid {
-  max-width: 65rem;
+  max-width: var(--page-max-width);
 }
 
-.md-main {
-  flex-grow: 0;
+.hero {
+  width: var(--page-max-width);
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .md-main__inner {
@@ -41,15 +47,65 @@ body::before {
   border: 1px solid var(--bg-secondary);
 }
 
-/* Game grid */
-.game-grid {
-  display: grid;
-  gap: var(--grid-gap);
-  grid-template-columns: repeat(auto-fit, minmax(var(--game-card-minwidth), 1fr));
-  margin: var(--space-4) auto;
+/* Table styling */
+.md-content table,
+table.md-table {
+  background-color: var(--bg-secondary) !important;
+  border: none !important;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.game-card {
+.md-typeset__table {
+   min-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+    display: table;
+}
+
+.md-content table th,
+table.md-table th {
+  background-color: var(--bg-tertiary) !important;
+  color: var(--text-primary) !important;
+  font-weight: 600;
+}
+
+.md-content table th,
+.md-content table td,
+table.md-table th,
+table.md-table td {
+  border: none !important;
+}
+
+.md-content table tr:hover,
+table.md-table tr:hover {
+  background-color: rgba(34, 197, 94, 0.08) !important;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {  
+  box-shadow: none;
+}
+
+.md-content table td,
+table.md-table td {
+  color: var(--text-secondary) !important;
+}
+
+/* Game grid */
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--grid-gap);
+  padding: var(--container-vertical-padding) var(--container-horizontal-padding) 0 var(--container-horizontal-padding);
+}
+
+.game-grid > * {
+  flex: 1 1 260px;
+  max-width: 100%;
+}
+
+a.game-card {
   display: block;
   padding: var(--card-padding-vertical) var(--card-padding-horizontal);
   background: linear-gradient(180deg, var(--glass-gradient-start), var(--glass-gradient-end));
@@ -114,6 +170,11 @@ body::before {
   background-color: var(--bg-nav) !important;
 }
 
+.md-sidebar--secondary[hidden],
+.md-sidebar--secondary:empty {
+  display: none;
+}
+
 .md-nav--secondary .md-nav__title {
   background-color: var(--bg-nav) !important;
   border-bottom: 1px solid var(--bg-secondary);
@@ -149,10 +210,6 @@ body::before {
 
 
 @media (max-width: 640px) {
-  .game-grid {
-    grid-template-columns: 1fr;
-  }
-
   .game-card img {
     max-height: var(--game-img-max-height-mobile);
   }

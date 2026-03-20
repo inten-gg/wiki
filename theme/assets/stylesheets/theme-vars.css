@@ -1,5 +1,7 @@
 /* Canonical design tokens for INTen wiki (source of truth) */
 :root{
+  --page-max-width: 80rem;
+
   /* Glass / surfaces */
   --glass-gradient-start: rgba(255,255,255,0.02);
   --glass-gradient-end: rgba(255,255,255,0.01);

@@ -53,8 +53,10 @@
 .social-links {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   margin-top: 0.5rem;
+  padding-bottom: var(--container-vertical-padding, 1.5rem);
 }
 
 .social-link {

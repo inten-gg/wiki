@@ -4,24 +4,32 @@ repo_url: https://github.com/inten-gg/wiki
 
 nav:
   - Home: index.md
-  - Games:
-      - Squad: games/squad/index.md
-      - ArmA 3: games/arma3/index.md
-      - ArmA Reforger: games/reforger/index.md
-  - Tools:
-      - Squad WLS Seeder: tools/squad-wls-seeder/index.md
-  - About: about.md
+  - Squad: 
+    - Settings: squad/settings/index.md
+    #- Seeding Tool: squad/seeding-tool/index.md
+  - ArmA 3:
+    - TFAR: arma3/tfar/index.md
+    - Advanced Medical: arma3/advanced-medical/index.md
+  - ArmA Reforger:
+      - Home: arma-reforger/index.md
+  - League of Legends:
+      - Home: league-of-legends/index.md^
 
 theme:
   name: material
   custom_dir: theme
+  favicon: 'https://inten.gg/img/int-emblem.png'
+  logo: 'https://inten.gg/img/int-emblem.png'
+  font:
+    text: 'Inter'
+    code: 'Roboto Mono'
   palette:
     - scheme: default
       primary: 'green'
       accent: 'emerald'
-  font:
-    text: 'Inter'
-    code: 'Roboto Mono'
+  language: de
+  features:
+    - announce.dismiss
 
 extra_css:
   - 'assets/css/theme-vars.css'
@@ -33,3 +41,8 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: '¶'
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
